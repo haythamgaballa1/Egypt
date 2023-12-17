@@ -1,0 +1,114 @@
+
+@media (min-width :500px) and (max-width:1600px) {
+    header .overfly {
+     justify-content: center;
+    }
+    header .overfly .content
+{
+    text-align: center;
+    padding-left: 0px;
+    max-width: 80%;
+}
+}
+@media (max-width: 600px) {
+    .section-header h2{
+        font-size: 60px;
+    }
+    .collapse ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .overfly{
+        justify-content: center !important;        
+    }
+    header .overfly .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+    }
+    .overfly .content p{
+        font-size: 15px;
+        width: 300px;
+    }
+    
+    header .overfly .content button
+{
+    color: black  !important;
+    border: solid 1.5px rgb(0, 0, 0) !important;
+}
+header .overfly .content button:hover
+{
+    color: black  !important;
+    border: solid 1.5px rgba(0, 0, 0, 0) !important;
+}
+header .overfly .content .row
+{
+    display: none;
+}
+header .overfly .content .play-stop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header .overfly .content .play-stop #play{
+    color: black !important;
+    border: solid 1px black !important;
+}
+header .overfly .content h1
+{
+    font-size: 3rem;
+}
+    header .overfly .content p
+{
+    font-size: 15px;
+    width: 300px;
+}
+  }
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    .navbar .navbar-nav{
+        width: 500px !important ;
+    }
+    .collapse ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .overfly .content .row
+{
+    display: none;
+}
+  }
+  @media (max-width: 1600px)  {
+    header .overfly .content .play-stop{
+        display: none;
+    }
+    header video{
+        display: none;
+    }
+    header .overfly .content #Contact
+{
+    border: solid 1.5px rgb(160, 160, 160);
+    color: rgb(88, 88, 88);
+
+}
+  }
+  @media (min-width: 1200px) {
+    .navbar .navbar-nav{
+        width: 500px !important ;
+
+    }
+    .collapse ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media  (max-width: 2000px) {
+
+}
